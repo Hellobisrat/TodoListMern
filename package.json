@@ -1,0 +1,30 @@
+{
+  "name": "todolistmern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hellobisrat/TodoListMern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hellobisrat/TodoListMern/issues"
+  },
+  "homepage": "https://github.com/Hellobisrat/TodoListMern#readme",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.0",
+    "nodemon": "^3.1.10",
+    "tailwindcss": "^4.1.4"
+  }
+}
